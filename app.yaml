@@ -1,4 +1,5 @@
-runtime: php74
+runtime: php81
 handlers:
 - url: /
   script: auto
+entrypoint: php -s 127.0.0.1:$PORT
